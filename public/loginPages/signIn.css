@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: "Ubuntu", sans-serif;
+   font-size: 0.8rem;
+}
+
+.flex{
+   display: flex;
+   justify-content: start!important;
+}
+
+a{
+   text-decoration: none;
+}
+
+ .container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(141, 18, 223);
+    /* background: rgb(0,0,0); */
+    display: grid;
+    place-items: center;
+ }
+
+ .login-section{
+    width: 60vw;
+    min-height: 60vh;
+    background-image: url("https://media.graphassets.com/resize=fit:crop,width:1280,height:660/fiHpUylTQyoJGKHSjYML");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;  
+
+ }
+ input{
+   display: block;
+   width: 100%;
+   padding: 0.3rem;
+   font-size: 1rem;
+   outline: none;
+
+   border-top: 0px solid transparent;
+   border-right: 0px solid transparent;
+   border-left: 0px solid transparent;
+   border-bottom: 2px solid rgb(153, 152, 152);
+   background-color: transparent;
+ }
+
+
+.input-field.flex>p{
+  color: rgb(20, 20, 163);
+}
+
+
+.email{
+    background-image: url("./assets/icons8-email-64.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.password{
+    background-image: url("./assets/icons8-password-30.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+
+}
+
+ .right>h2{
+   margin-bottom: 1rem;
+   font-size: 2rem;
+   text-align: center;
+ }
+ .right{
+   background-color: rgba(255, 255, 255, 0.555);
+   flex: 1;
+   backdrop-filter: blur(20px);
+   padding: 1.5rem;
+ }
+
+
+.input-field{
+   margin-top: 0.8rem;
+}
+
+button{
+   width: 100%;
+   padding: 0.7rem 0;
+   border-radius: 8px;
+   background-color: #8902e2;
+   color: #fff;
+   outline: none;
+   border: transparent;
+   font-size: 1rem;
+   margin-top: 1rem;
+}
+
+button~p{
+   margin-top: 0.5rem;
+}
+
+ .left{
+   flex: 1.5;
+   background-color: rgba(122, 3, 219, 0.21);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   line-height: 2rem;
+   color: #ffffff;
+ }
+
+ .left>p{
+   font-weight: 600;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />z
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator App</title>
+</head>
+<body>
+    <div class="main">
+        <img class="img" src="alexander-grey-O7sMRs7G4lg-unspl.jpg" alt="">
+        <div class="container">
+            <input id="inputFeild" readonly type="text">
+            <div class="buttons">
+                <!-- first row -->
+                <button onclick="deleteAll()" id="danger">C</button>
+                <button onclick="squareRoot()">X <sup>2</sup></button>
+                <button onclick="deleteOne()"><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick="getVal('/')">/</button>
+                <!-- second row -->
+                <button onclick="getVal(7)">7</button>
+                <button onclick="getVal(8)">8</button>
+                <button onclick="getVal(9)">9</button>
+                <button onclick="getVal('*')">X</button>
+                <!-- third row -->
+                <button onclick="getVal(4)">4</button>
+                <button onclick="getVal(5)">5</button>
+                <button onclick="getVal(6)">6</button>
+                <button onclick="getVal('-')">-</button>
+                <!-- forth row -->
+                <button onclick="getVal(1)">1</button>
+                <button onclick="getVal(2)">2</button>
+                <button onclick="getVal(3)">3</button>
+                <button onclick="getVal('+')">+</button>
+
+                <button onclick="getVal(0)">0</button>
+                <button onclick="getVal('00')">00</button>
+                <button onclick="getVal('.')">.</button>
+                <button onclick="equal()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper{
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+caption {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 40px auto;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  
+  
+  table th {
+    background-color: #384b13;
+    color: #fff;
+  }
+
+  .item-name{
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .col-quantity,
+  .col-price{
+    font-weight: 400;
+  }
+  
+  table tbody tr:nth-child(even) td {
+    background-color: #bdb5b5;
+  }
+  
+  .price_txt {
+    text-align: right;
+    font-weight: bold;
+  }
